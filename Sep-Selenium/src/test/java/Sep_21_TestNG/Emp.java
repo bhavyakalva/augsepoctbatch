@@ -23,6 +23,10 @@ public class Emp {
   public void empname4() {
 	  System.out.println("employee name is abcdef");
   }
+  @Test(priority=4)
+  public void empname5() {
+	  System.out.println("employee name is abcdef");
+  }
   @BeforeClass
   public void beforeClass() {
 	  System.out.println("i am from before class");
