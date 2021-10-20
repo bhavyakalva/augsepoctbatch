@@ -14,6 +14,7 @@ public class Sysout {
 		System.out.println("i was born on the year " + birth);
                 int a= 26;
                   System.out.println("i was born on the date "+ a);
+		System.out.println("my birth date is "+a);
 	}
 
 }
